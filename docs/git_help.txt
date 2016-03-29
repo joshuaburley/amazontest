@@ -1,0 +1,42 @@
+-------------------------------------------------------
+Git Help - Console Commands (Joshua Burley, March 2016)
+-------------------------------------------------------
+
+COMMAND: git
+desc: lists available git commands that can be used
+
+COMMAND: git clone <remote_server_path_to_repository>
+desc: makes a local repository from the server location on GitHub
+
+COMMAND: git config --global user.name "<user_name>"
+desc: sets the global user name used to idenify in GitHub who is committing changes
+
+COMMAND: git config --global user.email "<email_address>"
+desc: sets the global user email used to identify in GitHub who is committing changes
+
+COMMAND: git status
+desc: lists the current status of the local repository that you are in
+
+COMMAND: git branch
+desc: lists all branches created for your local repository
+
+COMMAND: git checkout -b <branch_name>
+desc: creates branch and changes to that branch
+
+COMMAND: git checkout <branch_name>
+desc: changes to a specific branch
+
+COMMAND: git push --all origin
+desc: pushes all branches to the remote repository 
+
+COMMAND: git pull
+desc: get and merge all change on the remote server applied to your local branch
+
+COMMAND: git add <file_name, *>
+desc: adds a file or (all files in local directory) to the local git repository
+
+COMMAND: git commit -m “message” (or -a to commit all files just added)
+desc: commits the file/s with the attached message to the repository git history/record
+
+COMMAND: git --version
+desc: displays the version of git
